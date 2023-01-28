@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    display: flex;
+    padding-top: 50px;
+}
+
+button {
+    margin: 10px 0;
+    width: 100px;
+    height: 20px;
+}
+
+nav, ul, li {
+    padding: 2px;
+}
+
+td {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    transition: all 0.2s ease-in-out;
+    vertical-align: middle;
+    text-align: center;
+}
+
+td.active {
+    background-color: #ffe100;
+}
+
+td:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: rgba(255, 225, 0, 0.32);
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+span {
+    padding: 4px;
+    display: inline-block;
+}
+
+a {
+    padding: 10px;
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.valid {
+    height: 25px;
+    color: red
+}
